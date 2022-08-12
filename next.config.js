@@ -7,7 +7,7 @@ const nextConfig = {
       styledComponents: true,
     };
 
-    if(process.env.NODE_ENV === 'production') {
+    if (process.env.NODE_ENV === 'production') {
       compilerConfig = {
         ...compilerConfig,
         reactRemoveProperties: { properties: ['^data-testid$'] },
