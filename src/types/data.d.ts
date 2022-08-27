@@ -15,6 +15,7 @@ export type Product = {
   category: Category;
   title: string;
   description: string;
+  imageUrl: string;
   blurDataUrl: string;
   price: number;
   condition: Condition;
