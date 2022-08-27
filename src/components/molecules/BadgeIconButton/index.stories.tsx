@@ -41,19 +41,19 @@ export const SearchBadgeIcon = Template.bind({});
 SearchBadgeIcon.args = {
   icon: <SearchIcon size={24} />,
   badgeContent: 1,
-  badgeBackGroundColor: '#ed9f28',
+  badgeBackgroundColor: '#ed9f28',
 };
 
 export const PersonBadgeIcon = Template.bind({});
 PersonBadgeIcon.args = {
   icon: <PersonIcon size={24} />,
   badgeContent: 1,
-  badgeBackGroundColor: '#d4001a',
+  badgeBackgroundColor: '#d4001a',
 };
 
 export const ShoppingCartBadgeIcon = Template.bind({});
 ShoppingCartBadgeIcon.args = {
   icon: <ShoppingCartIcon size={24} />,
   badgeContent: 1,
-  badgeBackGroundColor: '#32bf00',
+  badgeBackgroundColor: '#32bf00',
 };
